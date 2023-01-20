@@ -31,8 +31,39 @@ Usage
 ```
 
 
-{{$laravelDashPackageName->layout()}}
-{{$laravelDashPackageName->component()}}
+{{$laravelDashPackageName->site->block->nav()}}
+{{$laravelDashPackageName->site->block->welcome()}}
+{{$laravelDashPackageName->site->block->about()}}
+{{$laravelDashPackageName->site->block->posts()}}
+{{$laravelDashPackageName->site->block->faqs()}}
+{{$laravelDashPackageName->site->block->registerOfInterest()}}
+{{$laravelDashPackageName->site->block->emailSubscribe()}}
+{{$laravelDashPackageName->site->block->contact()}}
+{{$laravelDashPackageName->site->block->sectionTitle()}}
+{{$laravelDashPackageName->site->block->footer()}}
+
+
+{{$laravelDashPackageName->site->components->posts()}}
+{{$laravelDashPackageName->site->components->post()}}
+{{$laravelDashPackageName->site->components->faqs()}}
+{{$laravelDashPackageName->site->components->faq()}}
+
+
+{{$laravelDashPackageName->site->section->nav()}}
+{{$laravelDashPackageName->site->section->welcome()}}
+{{$laravelDashPackageName->site->section->about()}}
+{{$laravelDashPackageName->site->section->post()}}
+{{$laravelDashPackageName->site->section->registerOfInterest()}}
+{{$laravelDashPackageName->site->section->emailSubscribe()}}
+{{$laravelDashPackageName->site->section->contact()}}
+{{$laravelDashPackageName->site->section->footer()}}
+
+
+
+{{$laravelDashPackageName->dash->widget->localization()}}
+{{$laravelDashPackageName->dash->widget->posts()}}
+{{$laravelDashPackageName->dash->widget->image()}}
+{{$laravelDashPackageName->dash->widget->menu()}}
 
 
 ```
